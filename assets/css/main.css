@@ -102,31 +102,27 @@ justify-content: center;
 padding: 1rem;
 }
 .new_arrivals_info_top.row {
-    justify-content: space-between;
-    border-bottom: 1px solid rgb(221, 221, 221);
-    margin: 0rem .1rem;
-    padding: unset;
-    align-items: center;
+justify-content: space-between;
+border-bottom: 1px solid rgb(221, 221, 221);
+margin: 0rem .1rem;
+padding: unset;
+align-items: center;
 }
-
 .new_arrivals_info_header{
-    font-size: 1.2rem;
-    font-weight: bolder;
+font-size: 1.2rem;
+font-weight: bolder;
 }
 .btn_left{
-    border: 1px solid rgb(221, 221, 221);
-    padding: 0.6rem;
-    outline: none;
-
+border: 1px solid rgb(221, 221, 221);
+padding: 0.6rem;
+outline: none;
 }
 .btn_right{
-    border: 1px solid rgb(221, 221, 221);
-    padding: 0.6rem;
-    outline: none;
-    background-color: aqua;
-    margin-left: 0.5rem;
-   
-
+border: 1px solid rgb(221, 221, 221);
+padding: 0.6rem;
+outline: none;
+background-color: aqua;
+margin-left: 0.5rem;
 }
 @media (min-width: 740px) and (max-width: 1023px) {
 .top_header {
@@ -177,12 +173,12 @@ padding: 1rem;
 padding: 1rem;
 }
 .listFeatured_all{
-    padding-top: 1rem;
+padding-top: 1rem;
 }
 .listFeaturedSpan{
-    border-left:2px solid rgb(221, 221, 221); 
-     border-right:2px solid rgb(221, 221, 221); 
-     padding: 0 10px;
+border-left:2px solid rgb(221, 221, 221); 
+border-right:2px solid rgb(221, 221, 221); 
+padding: 0 10px;
 }
 /* > PC low resolution */
 @media (min-width: 1024px)  {
@@ -201,11 +197,11 @@ text-align: right;
 padding-right: 1.5rem;
 }
 .new_arrivals_info_top.row {
-    justify-content: space-between;
-    border-bottom: 1px solid rgb(221, 221, 221);
-    margin: 0rem .1rem;
-    padding: 0 2rem 0.5rem 0rem;
-    align-items: center;
+justify-content: space-between;
+border-bottom: 1px solid rgb(221, 221, 221);
+margin: 0rem .1rem;
+padding: 0 2rem 0.5rem 0rem;
+align-items: center;
 }
 .menu_select{
 padding: 0 2rem 0.5rem;}
@@ -234,23 +230,53 @@ order: 2;
 order: 3;
 }
 }
+.keepTouch{
+  background-color:rgb(242,242,242);
+   
+}
 
+.keepTouch_left{
+    padding: 2rem 0;
+   
+}
 .keepTouch_title{
 font-weight: bolder;
 font-size: 2rem;
-}
-.following_icon_info{
-font-weight: bolder;
-font-size: 5rem;
+display: block;
+padding: 4rem 0;; 
 }
 .keepTouch_info{
-padding: 3rem;
+font-size: 1.2rem;
+display: block;
+padding: none;
+}
+.keepTouch_VM{
+display: block;
+padding: none;
+font-size: 1.5rem;
+}
+.keepTouch_info{
 text-align: center;
+}
+
+
+.following_icon{
+    align-items: center;
+    justify-content: center;
 }
 .following_icon_info{
 text-align: center;
+font-weight: bolder;
+font-size: 4rem;
+padding-left: 2rem;
 }
+
 .more_contact{
 text-align: center;
 padding: 3rem;
+}
+.more_contact_title{
+font-weight: bolder;
+font-size: 2rem;
+padding-bottom: rem;
 }
