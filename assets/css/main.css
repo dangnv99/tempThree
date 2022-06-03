@@ -258,8 +258,6 @@ font-size: 1.5rem;
 .keepTouch_info{
 text-align: center;
 }
-
-
 .following_icon{
     align-items: center;
     justify-content: center;
@@ -272,11 +270,43 @@ padding-left: 2rem;
 }
 
 .more_contact{
-text-align: center;
+text-align: -webkit-left;
 padding: 3rem;
 }
 .more_contact_title{
 font-weight: bolder;
 font-size: 2rem;
-padding-bottom: rem;
+padding-bottom: 1.5rem;
+display: block;
+}
+.more_contact_info{
+    padding-top: 2rem;
+}
+.contact_info{
+  display: block;
+  padding-bottom: 2rem;  
+}
+
+.contact{
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.contact_text{
+    padding-left: 1rem;;
+}
+
+.contact_addicon{
+    background-color: burlywood;
+    padding: 0.7rem 1.2rem;
+}
+
+.contact_mail{
+    background-color: burlywood;
+    padding: 0.1rem 0rem;
+}
+
+.contact_phone{
+    background-color: burlywood;
+    padding: 0.1rem 1rem;
 }
