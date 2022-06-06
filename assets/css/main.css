@@ -238,6 +238,9 @@ text-align: center;
 .listFeatured_all{
 padding-top: 1rem;
 }
+.listFeatured_info{
+    text-align: center;
+}
 .listFeaturedSpan{
 border-left:2px solid rgb(221, 221, 221); 
 border-right:2px solid rgb(221, 221, 221); 
