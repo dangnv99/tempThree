@@ -280,10 +280,15 @@ margin-top: 1rem;
     /* border: 2px solid rgb(133, 132, 132); */
     box-shadow: 1px 1px 9px 4px rgb(224, 224, 224);
 }
+.listFeatured_info:hover{
+    /* border: 2px solid rgb(133, 132, 132); */
+    box-shadow: 1px 1px 9px 4px rgb(224, 224, 224);
+}
 .listFeatured_all{
 padding-top: 1rem;
 }
 .listFeatured_info{
+    margin: 1.5rem 0;
     text-align: center;
 }
 .listFeaturedSpan{
