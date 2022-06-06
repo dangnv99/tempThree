@@ -134,6 +134,50 @@ padding:  0 0.5rem 0.5rem;
 font-weight: bolder;
 font-size: 1.2rem;
 }
+.tooltip {
+  position:relative; 
+}
+
+.tooltip:before {
+  content: attr(data-text); 
+  position:absolute;
+  top:-30px;
+  right: 0;
+  margin-left:15px; 
+  width:20px;
+  padding:5px 10px;
+  border-radius:3px;
+  background: orange;
+  color: #fff;
+  text-align:center;
+  display:none; /* hide by default */
+}
+
+.tooltip:after {
+   content: "";
+  position:absolute;
+  
+  /* position tooltip correctly */
+  left:65px;
+  margin-left:-5px;
+ 
+  /* vertically center */
+  top:-2px;
+  transform:translateY(-50%);
+ 
+  /* the arrow */
+  border:5px solid orange;
+  border-color: orange transparent transparent orange;
+  
+  display:none;
+}
+
+.tooltip:hover{
+  color: orangered;
+}
+.tooltip:hover:before, .tooltip:hover:after {
+  display:block;
+}
 .slider_rihgt{
 text-align: center;
 padding: 2rem  0rem;
