@@ -150,25 +150,17 @@ font-size: 1.2rem;
   background: orange;
   color: #fff;
   text-align:center;
-  display:none; /* hide by default */
+  display:none; 
 }
-
 .tooltip:after {
-   content: "";
+    content: "";
   position:absolute;
-  
-  /* position tooltip correctly */
   left:65px;
   margin-left:-5px;
- 
-  /* vertically center */
   top:-2px;
   transform:translateY(-50%);
- 
-  /* the arrow */
   border:5px solid orange;
   border-color: orange transparent transparent orange;
-  
   display:none;
 }
 
