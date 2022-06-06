@@ -231,9 +231,18 @@ display: none;
 padding: 1rem;
 }
 .new_arrivals_info{
-padding: 1rem;
+padding: 1rem; 
 text-align: center;
+margin-top: 1rem;
 
+}
+.new_arrivals_info_all{
+    margin-bottom: 2rem;
+}
+
+.new_arrivals_info:hover{
+    /* border: 2px solid rgb(133, 132, 132); */
+    box-shadow: 1px 1px 9px 4px rgb(224, 224, 224);
 }
 .listFeatured_all{
 padding-top: 1rem;

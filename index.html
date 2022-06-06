@@ -97,8 +97,16 @@
                                 <img src="./assets/img/downpro.png" />
                             </div>
                             <div class="menu_select">
-                                <span>NEW ARRIVALS</span>
+                                <!-- <div class="new" style="background-color:ora">
+                                    <span>new</span>
+                                </div> -->
+                                <span data-toggle="popover" data-placement="top" data-content="New">NEW ARRIVALS</span>
                                 <img src="./assets/img/downpro.png" />
+                                <script>
+                                    $(document).ready(function () {
+                                        $('[data-toggle="popover"]').popover();
+                                    });
+                                </script>
                             </div>
                             <div class="menu_select ">
                                 <span>PROMOTIONS</span>
